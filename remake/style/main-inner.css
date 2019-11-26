@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: #000;
+  font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;
+  line-height: 1.6;
+  min-width: 315px;
+  overflow-x: hidden;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, a:active, a:visited {
+  color: inherit;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+main{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.inner-svg{
+  position: absolute;
+  overflow: hidden;
+}
+
+.inner-svg-1 {
+  width: calc(20vmin + 12.5 * 1rem);
+  left: calc(20vw - 10 * 1rem);
+  top: 140vh;
+}
+
+.inner-svg-2 {
+  width: calc(100vmin + 25 * 1rem);
+  left: 40vw;
+  top: 10vh;
+}

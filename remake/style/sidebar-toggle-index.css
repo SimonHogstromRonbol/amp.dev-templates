@@ -1,0 +1,39 @@
+.sidebar-toggle{
+  position: fixed;
+  top: 1.25rem;
+  left: 1rem;
+  line-height: 1;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.sidebar-toggle:active,
+.sidebar-toggle:focus{
+  background: #ccc;
+  color: #fff;
+  outline: none;
+}
+
+.tagline{   
+  display: none; 
+}
+
+.tagline div{
+    font-size: .84375rem;
+    line-height: 36px;
+}
+
+
+@media (min-width: 40rem){
+  .tagline{   
+    display: block;
+    position: fixed;
+    left: 1rem;
+    top: calc(20px + 36px + .65rem);
+  }
+ 
+  .tagline div{
+    transform: rotate(-90deg) translate(-100%);
+    transform-origin: top left;
+  }
+}

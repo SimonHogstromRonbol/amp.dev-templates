@@ -8,7 +8,7 @@
 ## Sidebar Toggle
 
 - Removed the unneeded <header> element
-  - this fixed a bug that would put an invisible 59px header at the top op the template preventing users from interacting with the images behind that header. 
+  - this fixed a bug that would put an invisible 59px header at the top of the template preventing users from interacting with the images behind that header. 
 - Did all the styling on the button itself rather than splitting it between the header and the button.
 - moved the tagline into this chunk
 - Gave the tagline position: fixed rather than position: absolute to not have it be overlapped by the sidebar toggle icon when scrolling vertically on the gallery-inner page, this is okay because the tagline is hidden on phones and small tablets anyway so it doesnt overlap with the text on the site.
@@ -28,7 +28,7 @@
 
 ## Inner blue block quote
 
-- moved away from using html for styling but making divs as spacing, and making that effect in css instead.
+- moved away from using html for styling, and making that effect in css instead.
 
 ## Article
 
